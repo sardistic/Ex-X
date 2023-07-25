@@ -10,6 +10,9 @@
 - **Twitter Logo Replacement:** The extension swaps out the new "X" logo on Twitter's webpage with the classic Twitter bird logo. This change is applied across all pages within the Twitter domain, restoring the nostalgic feel of the original Twitter experience.
 
 - **Favicon Replacement:** Ex-X Twitter also replaces the new "X" favicon displayed in the browser tab with the classic Twitter favicon, ensuring a consistent user experience across all visual touchpoints with Twitter.
+![Screenshot 2023-07-25 132031](https://github.com/sardistic/Ex-X/assets/11499173/2678a494-db86-4fdd-88cb-615485f6dff9)
+
+- 
 
 ## Usage
 

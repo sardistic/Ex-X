@@ -22,6 +22,6 @@
 
 ## Why Ex-X Twitter?
 
-Social media branding changes can sometimes feel jarring or unnecessary, especially for long-term users who have grown accustomed to the original branding. Un-X Twitter is perfect for those who aren't quite ready to move on to Twitter's new "X" branding, and who'd like a touch of nostalgia as they scroll through their Twitter feed. 
+Social media branding changes can sometimes feel jarring or unnecessary, especially for long-term users who have grown accustomed to the original branding. Ex-X Twitter is perfect for those who aren't quite ready to move on to Twitter's new "X" branding, and who'd like a touch of nostalgia as they scroll through their Twitter feed. 
 
 This extension does not collect or store any personal data, adheres to Chrome's permissions policy, and is fully open source, ensuring a safe and transparent user experience.

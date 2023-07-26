@@ -25,3 +25,9 @@
 Social media branding changes can sometimes feel jarring or unnecessary, especially for long-term users who have grown accustomed to the original branding. Ex-X Twitter is perfect for those who aren't quite ready to move on to Twitter's new "X" branding, and who'd like a touch of nostalgia as they scroll through their Twitter feed. 
 
 This extension does not collect or store any personal data, adheres to Chrome's permissions policy, and is fully open source, ensuring a safe and transparent user experience.
+
+
+[<img src="https://github.com/sardistic/Ex-X/assets/11499173/fe8d93e9-68b8-4e61-a97b-6293c7a8f905">](https://chrome.google.com/webstore/detail/ex-x-twitter/cddoeljbpakllcifiacfackoalheinpn)
+
+get on the chrome store here: 
+(https://chrome.google.com/webstore/detail/ex-x-twitter/cddoeljbpakllcifiacfackoalheinpn)

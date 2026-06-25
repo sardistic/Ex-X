@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "Ex-X Twitter",
     "version": "2.0.0",
-    "description": "Restores Twitter's classic branding on x.com: the bird logo, the original favicon, the old window title, and the original wording (Tweet, Retweet).",
+    "description": "Restores Twitter's classic branding on x.com: bird logo, original favicon, old tab title, and wording (Tweet, Retweet).",
     "icons": {
         "16": "icons/16icon.png",
         "48": "icons/48icon.png",

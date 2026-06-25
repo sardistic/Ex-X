@@ -3,22 +3,37 @@
 
 # Ex-X Twitter Chrome Extension
 
-**Ex-X Twitter** is a Chrome extension that reverts the new "X" branding on Twitter back to its classic look. This extension replaces the new "X" Twitter logo and favicon with the traditional Twitter bird logo and favicon, providing a more familiar and less disruptive user experience for those who prefer the traditional Twitter design.
+**Ex-X Twitter** is a Chrome extension that reverts the "X" rebrand back to classic Twitter. It now works on **x.com** (and still on twitter.com), and reverts more than just the logo — the favicon, the tab title, and the wording ("Tweet", "Retweet") all come back too. Every feature can be toggled individually from the popup.
+
+> **v2.0** is a full rewrite for the post-rebrand x.com. The old version only matched `twitter.com` and no longer did anything once the site moved to `x.com`.
 
 ## Features
 
-- **Twitter Logo Replacement:** The extension swaps out the new "X" logo on Twitter's webpage with the classic Twitter bird logo. This change is applied across all pages within the Twitter domain, restoring the nostalgic feel of the original Twitter experience.
+- **Bird logo:** Swaps the "X" masthead logo for the classic Twitter bird. SPA-aware, so it survives in-app navigation.
+- **Classic favicon:** Restores the Twitter bird favicon in the browser tab.
+- **Tab title:** Rewrites "… / X" back to "… / Twitter".
+- **Original wording:** Reverts "Post" → "Tweet", "Repost" → "Retweet" (and their variants) across the UI, while leaving anything you're typing untouched.
+- **Per-feature toggles:** A popup with a master switch plus an on/off toggle for each feature, persisted via `chrome.storage.sync`.
 
-- **Favicon Replacement:** Ex-X Twitter also replaces the new "X" favicon displayed in the browser tab with the classic Twitter favicon, ensuring a consistent user experience across all visual touchpoints with Twitter.
 ![Screenshot 2023-07-25 132031](https://github.com/sardistic/Ex-X/assets/11499173/2678a494-db86-4fdd-88cb-615485f6dff9)
-
-- 
 
 ## Usage
 
-1. **Download the Extension:** You can download the extension from the repository and load it into your Chrome browser as an unpacked extension.
+1. **Load the extension:** Open `chrome://extensions`, enable **Developer mode**, click **Load unpacked**, and select the `Ex-X Twitter` folder from this repository.
+2. **Browse x.com:** The extension runs automatically. Open the toolbar popup to enable/disable individual features.
 
-2. **Navigate to Twitter:** After you've loaded the extension, simply navigate to Twitter's website. The extension works quietly in the background to replace the logo and favicon with the classic Twitter versions, requiring no additional input from the user.
+## Project structure
+
+```
+Ex-X Twitter/
+├── manifest.json        # MV3 manifest
+├── assets/              # logo.svg (bird) + icon.svg (favicon)
+├── icons/               # 16 / 48 / 128 toolbar icons
+├── src/
+│   ├── settings.js      # shared settings model (storage + defaults)
+│   └── content.js       # SPA-aware logo/favicon/title/wording reversion
+└── popup/               # popup UI (html / css / js)
+```
 
 ## Why Ex-X Twitter?
 

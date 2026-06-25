@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex-X Twitter</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <header class="header">
+        <img class="brand-logo" src="../assets/logo.svg" alt="">
+        <div class="brand-text">
+            <h1>Ex-X Twitter</h1>
+            <p>Bring back the bird.</p>
+        </div>
+    </header>
+
+    <label class="row master">
+        <span class="label">Extension enabled</span>
+        <input type="checkbox" id="enabled" class="switch">
+    </label>
+
+    <div class="features" id="features">
+        <label class="row">
+            <span class="label">Bird logo</span>
+            <input type="checkbox" id="logo" class="switch">
+        </label>
+        <label class="row">
+            <span class="label">Classic favicon</span>
+            <input type="checkbox" id="favicon" class="switch">
+        </label>
+        <label class="row">
+            <span class="label">Tab title (“… / Twitter”)</span>
+            <input type="checkbox" id="title" class="switch">
+        </label>
+        <label class="row">
+            <span class="label">Wording (Tweet, Retweet)</span>
+            <input type="checkbox" id="wording" class="switch">
+        </label>
+    </div>
+
+    <footer class="footer">
+        <span>v2.0.0</span>
+        <a href="https://github.com/sardistic/Ex-X" target="_blank" rel="noopener">GitHub</a>
+    </footer>
+
+    <script src="../src/settings.js"></script>
+    <script src="popup.js"></script>
+</body>
+</html>
